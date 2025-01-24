@@ -1,18 +1,22 @@
+/* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Formattazione Body */
 body{
     background-color: lightgray;
 }
 
+/* Formattazione logo */
 .logo{
 background-color: white;
 padding: 10px;
 }
 
+/* Sezione Bottoni */
 .button-section{
     background-color: white;
     width: 80%;
@@ -39,3 +43,72 @@ padding: 10px;
     background-color: white;
     border:1px solid gray;
 }
+
+/* Sezione Lista */
+.list-section{
+    background-color: white;
+    width: 80%;
+    margin: 5px auto;
+    padding: 20px;
+
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 15px;
+}
+
+.green-check{
+    border: 1px solid green;
+    color: green;
+    border-radius: 50%;
+    padding: 1px;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.red-cross{
+    border: 1px solid red;
+    color: red;
+    border-radius: 50%;
+    padding :1px;
+    font-size: 12px;
+    margin:5px
+}
+
+.colored-text{
+ font-size: 12px;
+ border-radius: 30px;
+ padding: 5px 10px;
+ color:white;
+
+}
+
+.blue-text{
+ background-color: lightblue;
+}
+
+.violet-text{
+ 
+}
+
+.green-text{
+
+}
+
+.orange-text{
+
+}
+
+.purple-text{
+background-color: purple;
+
+}
+
+.lime-text{
+
+}
+
