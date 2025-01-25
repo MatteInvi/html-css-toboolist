@@ -1,67 +1,81 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* Formattazione Body */
-body{
+body {
     background-color: lightgray;
+    font-family: "roboto", serif;
 }
 
 /* Formattazione logo */
-.logo{
-background-color: white;
-padding: 10px;
+.logo {
+    background-color: white;
+    padding: 15px;
 }
 
 /* Sezione Bottoni */
-.button-section{
+.button-section {
     background-color: white;
-    width: 80%;
+    width: 70%;
     margin: 50px auto 0 auto;
     padding: 5px 20px;
-
+    border-radius: 10px;
 }
 
-.button{
+.button {
     text-decoration: none;
     border-radius: 10px;
     padding: 5px 15px;
     display: inline-block;
     margin: 10px 0;
     color: black;
-    
 }
 
-.blue{
+.button:hover {
+    font-weight: 900;
+    background-color: orange;
+    background-image: linear-gradient(red, orange, yellow);
+    color: white;
+
+}
+
+.blue {
     background-color: lightseagreen;
 }
 
-.white{
+.white {
     background-color: white;
-    border:1px solid gray;
+    border: 1px solid gray;
 }
 
 /* Sezione Lista */
-.list-section{
+.list-section {
     background-color: white;
-    width: 80%;
+    width: 70%;
     margin: 5px auto;
     padding: 20px;
+    border-radius: 10px;
 
 }
 
-ul{
+ul {
     list-style: none;
 }
 
-li{
+li {
     margin: 15px;
 }
 
-.green-check{
+li .principal-item {
+    font-weight: 800;
+}
+
+/* colorazione check e cross */
+.green-check {
     border: 1px solid green;
     color: green;
     border-radius: 50%;
@@ -70,45 +84,50 @@ li{
     margin: 5px;
 }
 
-.red-cross{
+.red-cross {
     border: 1px solid red;
     color: red;
     border-radius: 50%;
-    padding :1px;
+    padding: 1px;
     font-size: 12px;
-    margin:5px
+    margin: 5px
 }
 
-.colored-text{
- font-size: 12px;
- border-radius: 30px;
- padding: 5px 10px;
- color:white;
-
-}
-
-.blue-text{
- background-color: lightblue;
-}
-
-.violet-text{
- 
-}
-
-.green-text{
+/* formattazione testi con sfondo colorato  */
+.colored-text {
+    font-size: 12px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    color: white;
 
 }
 
-.orange-text{
+.colored-text:hover {
+    font-weight: 900;
+    color: black;
+}
+
+.blue-text {
+    background-color: lightblue;
+}
+
+.violet-text {
+    background-color: blueviolet;
+}
+
+.aquamarine-text {
+    background-color: aquamarine;
+}
+
+.orange-text {
+    background-color: orange;
+}
+
+.purple-text {
+    background-color: purple;
 
 }
 
-.purple-text{
-background-color: purple;
-
+.lime-text {
+    background-color: limegreen;
 }
-
-.lime-text{
-
-}
-
